@@ -10,7 +10,9 @@ class Item
     int amount;
 
     vector<string> itemName;
-
+    vector<string> itemInventory;
+    vector<string> playerInventory;
+    
     bool isUsed(string);
 
 public:
@@ -30,7 +32,7 @@ public:
 
 class Weapon: public Item
 {
-    int damage=10;
+    int damage;
    
 public:
     Weapon();
@@ -44,7 +46,7 @@ public:
 
 class Armor : public Item
 {
-   int durability=10;
+    int durability;
 
     public:
     Armor();
@@ -58,8 +60,8 @@ class Armor : public Item
 
 class Potion : public Item
 {
-    int restoreHP=100;
-    int increaseATT=10;
+    int restoreHP;
+    int increaseATT;
   
     public:
     Potion();
@@ -71,18 +73,7 @@ class Potion : public Item
     int GetIncreaseATT() { return increaseATT; }
     void SetIncreaseATT(int val) { increaseATT = val; }
 
-};
+    };
 
-class Inventory :public Item
-{
-
-public:
-    Inventory();
-   ~Inventory();
-
-    void addItem(string);
-    void removeItem(string);
-
-};
 
 

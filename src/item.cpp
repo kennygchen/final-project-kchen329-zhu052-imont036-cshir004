@@ -16,6 +16,11 @@ Item::Item()
 
 }
 
+//For deletion
+Item::~Item()
+{
+    cout<<"Memory Free!"<<endl;
+}
 
 bool Item::isUsed(string name)
 {
@@ -23,14 +28,18 @@ bool Item::isUsed(string name)
 }
 
 
-void Inventory:: addItem(string)
+
+
+
+void Item::showInfo()
 {
 
 }
 
 
-void Inventory::removeItem(string)
-{
 
-}
+
+
+
+
 
