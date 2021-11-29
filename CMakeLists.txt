@@ -6,8 +6,13 @@ ADD_SUBDIRECTORY(googletest)
 
 ADD_EXECUTABLE(main
 	src/main.cpp
+	header/Character.hpp
 	src/character.cpp
-	src/player.cpp
+	src/WarriorFactory.cpp
+	src/WarriorCharacter.cpp
+	src/Game.cpp
+	src/RogueFactory.cpp
+	src/RogueCharacter.cpp
 )
 
 ADD_EXECUTABLE(test

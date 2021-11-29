@@ -1,4 +1,4 @@
-#include "../header/character.hpp"
+/*#include "../header/character.hpp"
 
 Character::Character(string name) {
 	this->name = name;
@@ -19,3 +19,4 @@ int Character::getHealth() {
 string Character::getName() {
 	return name;
 }
+*/
