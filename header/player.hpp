@@ -1,7 +1,7 @@
-#ifndef __PLAYER_HPP__
+/*#ifndef __PLAYER_HPP__
 #define __PLAYER_HPP__
 
-#include "character.hpp"
+#include "Character.hpp"
 
 class Player : public Character
 {
@@ -26,3 +26,4 @@ public:
 };
 
 #endif
+*/

@@ -1,9 +1,5 @@
 #include "../header/player.hpp"
 
-Player::Player(string name) {
-	setName(name);
-}
-
 int Player::getLevel() {
 	return level;
 }
