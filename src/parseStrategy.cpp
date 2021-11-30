@@ -1,7 +1,7 @@
 #include "../header/parseStrategy.hpp"
 #include <limits>
 ParseStrategy::~ParseStrategy(){
-	
+	delete game;
 }
 
 void ParseStrategy::parseInterface(){
