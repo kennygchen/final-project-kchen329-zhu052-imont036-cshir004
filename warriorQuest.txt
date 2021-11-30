@@ -1,0 +1,92 @@
+After a long fought battle, you find yourself seperated from the rest of your village.
+The gear weighs you down, your battered and exhausted, but you must regroup with your village. 
+You wander for a while.
+As the sun starts to rise, It's light assaults your eyes through the craggy ravine of Dragon's Peak.
+It's the quickest route back to your village, but it comes with great risk.
+Many who travel through the ragged rocks of the peak don't come out and those who doare too shocked to speak of the horrors they witness there.
+This isn't enough to deter you, after all you stand at the pinnacle of your villages heroes. 
+As you approach the base of the mountain, you spot a small town perfect for weary warriors like yourself.
+While there, you eat your fears, drink your sorrows, and rest your spirit for the road ahead. 
+Before beginning your perilous quest, you stop at the local shop to stock up on gear.
+-shop-
+You are now ready to test your luck against natures cruelest mountain.
+You begin to hike the steep peaks scattered throughout the mountain range, careful not to lose your grip. 
+You begin to see what looks like a carved trail for safer passage throughout the mountains.
+As you continue down this path, you hear a roar coming from around the spire in front of you. 
+A giant troll reveals himself from around the spire and begins to sprint towards you.
+It's time to put your skills to the test, you must defeat this troll to progress.
+-combat-
+The troll crumbles beneath your strength.
+As you bring down your weapon to deal the final blow, your bombarded by a strong gust of wind which blows your weapon off course.
+The troll takes advantage of this stroke of fortune to escape your wrath. 
+You begin to chase the troll, worried that letting him escape will come back to haunt you. 
+The troll reaches an incline and slides down the mountain into a cave. 
+You examine the situation, you can pursue the troll into the dark unknown, or continue the path around the mountain.
+What will you do? Will you 1. Continue on the carved path around the mountain or 2. Pursue the troll through the mountanous cave?
+-decision-
+You have chosen to continue on your journey and ignore the troll. 
+You traverse the trecherous path circling spires and narrowly escaping steep drops into the spiky rocks below.
+The descent draws ever near.
+You begin to spot the path downwards, you can even see your village out in the distance. 
+Your journey is close to an end.
+As you begin your descent down the mountain, you once again hear a roar off in the distance. 
+Something is off this time though...
+The roars begin to echo and as they get louder and louder, you begin to hear multiple voices in the midst of the chaos.
+You begin to realize whats happening.
+A tribe of trolls all jump out from the stone pillars surrounding the path. 
+You notice a wounded one admist the pack.
+It's the troll you let live. 
+The trolls begin to surround you. 
+Your village is in sight, if you survive this encounter, you can return home a legend.
+Time to prove your worth Warrior!
+-combat-
+You have survived the encounter with the family of trolls. 
+As the head troll falls to his knees, his gold crown rolls to your feet.
+Its golden glow alongside its jewel encrusted bezels is unmatched in beauty and in coin.
+You reach the bottom of the mountain.
+You survived Dragons Peak.
+Your village is but a giants step away now. 
+Dragons Peak is behind you now and you walk towards your village with pride in your step. 
+There is but one nagging feeling.
+If trolls roamed the craggy rocks on the surface, what rests below in the path untraveled?
+The End
+...?
+-end-
+
+You have chosen to pursue the troll into the depths of the mountain.
+Sliding down the steep slope is tough, but it's nothing your heavy armor can't handle.
+The slide for what seems like minutes until you finally land on your feet.
+It's pitch dark.
+You can hear the wounded grunts from the troll in front of you as he attempts to limp away.
+The troll quickly lights his torch and attempts to scare you away with the fire.
+You are unfazed.
+You quickly strike down the troll.
+He falls to the ground and the lit torch he carried now rolls to the other side of the cave.
+You follow after it, it being the only source of light in this unknown place after all.
+As you approach closer, you begin to notice a shadow in the little light that the torch is giving off.
+You slowly pick up the torch and raise it to the creature in front of you.
+Your heart drops and you quickly back away.
+The creature, startled, begins to awaken and lets out a blood-curdling screech.
+As this creatures screech comes to an end, you begin to see the signifier of what this creature is.
+Fire.
+You narrowly dodge the flaming breath of the beast.
+The dragon of Dragons Peak.
+So this is where the beast slumbers.
+You ready your weapon and prepare for the fight of your life.
+This is what all your battles have been leading up to. 
+Bringing this dragons head to your village will not only shower you in glory, but will ensure Dragons Peak is safe for travelers in the future.
+Time to earn your keep Warrior!
+-combat-
+The beast was no match for you! 
+You have slain the dragon!
+You take its head and mount it upon your weapon for all to see.
+The battle has taken a toll on the underground cave and it starts to collapse above you.
+There lies a small exit from the cave caused from the tremors and you quickly rush to it.
+You barely make it out of there without being crushed.
+You realize your at the bottom of the mountain and your village is but a giants stepaway.
+You survived Dragons Peak!
+You return to your village and are showered with praise and riches from your fellow warriors.
+You have become known throughout the land as the one who avenged hundreds and made Dragons Peak safe for travel.
+Your a hero!
+The End!
+-end-
