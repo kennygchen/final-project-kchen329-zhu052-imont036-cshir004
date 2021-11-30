@@ -37,7 +37,13 @@
  > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
  
  ## Screenshots
- > Screenshots of the input/output after running your application
+ > ![1](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/1.png)
+ > ![2](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/2.png)
+ > ![3](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/3.png)
+ > ![4](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/4.png)
+ > ![5](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/5.png)
+ > ![6](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/6.png)
+ > ![7](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/7.png)
  ## Installation/Usage
  > Instructions on installing and running your application
  ## Testing
