@@ -1,0 +1,96 @@
+You did it, you've betrayed your village for your own personal gain.
+You've been running from authorities throughout the dead of night for hours.
+You gain some distance and throw them off your track with some of your spare gear.
+You finally get a chance slow down and gather yourself in a dark alley.
+Your light on your feet, but all the running has left you tired and low on resources.
+You head towards the only safe haven for people like you.
+The underbelly of the beast if you will.
+You end up at Cutthroat Tavern, a shoddy bar just shy of Sinners Row.
+You drink your woes away, wondering what your next move will be.
+You know you can't stay here, but you have nowhere to go either.
+You begin to overhear a conversation between the barkeep and another lowlife.
+They speak of an ancient kings tomb not far from here with enough riches to make even the wealthiest man jealous.
+This may be your ticket into the good life.
+Word spreads fast around these parts, so you decide to head for this tomb tonight. 
+Before venturing towards uncertainty, you pay a visit to the local black market weapons dealer to stock up on supplies.
+-shop-
+After ensuring you have the gear to do the job, you sneak out of the village, making sure not to alarm any guards that are still on the lookout for you.
+You begin your journey to Kings Rest.
+The conversation you eavesdropped on mentioned the tomb lied in sacred forest not far from the outskirts of town.
+You steal a horse from a nearby stable and head north to the only forest around here you know of.
+After a while, you finally arrive and begin to search the forest for any signs of a tomb.
+You come across a statue of a hero, a glimmering symbol of heroism.
+Upon this statue lies a plaque detailing the deeds of this hero. 
+The savior of Dragons Peak.
+Your an experienced theif and know when things arent what they seem.
+You feel around and press a hidden switch in the plaque and the statue begins to move, uncovering a stairwell into the depths.
+You venture in prepared to handle any obstacle they throw at you.
+The crypt is dark and disgusting, spider webs fill every crevice and the stench of death is ever lingering.
+You make your way through until you come across a skeleton lying in front of you.
+It begins to rattle and shake violently until it rises and begins to attack you!
+You take your dagger out and parry its surprise attack.
+Time to show the dead what your made of!
+-combat-
+You defeat the skeleton and it crumbles into a pile of bones at your feet. 
+You spot the glisten of a tiny object admist the rubble of bones.
+A key!
+This might be useful for the trials ahead.
+You continue further down the crypt without any signs of the riches you were promised.
+You finally begin to reach what feels like the resting place of this great king.
+Coffins surround the area and what's even weirder is that this place feels like someone else has been here recently.
+As you explore the area you find yourself with a choice to make.
+There is both a door and a golden chest seem to fit the key you acquired.
+The problem is the key is so old and rusty, it might only survive one use.
+What will you do? Will you 1. Open the door to what may lie ahead or 2. Open the chest of unknown riches ?
+-decision-
+You decide to ignore the greed of the chest and continue further through the door.
+Your decision is rewarded with a golden room full of gold coins, jewelry, and everything else you can imagine!
+There's even a crown and an encrusted dragons head here too!
+This must be it, this must be the fortune the King was buried with.
+This will get you out of your life, It's time to make a change!
+This excitement soon turns to horror as the entire room around you begins to quake.
+Then, from below the piles of riches, a gigantic skeleton rises as all you can hear is the clinging from falling coins.
+It begins to scream at you.
+Those who dare to steal my riches will be shown no mercy!
+You can here for a reason and despite the obstacle in front of you, that reason hasn't changed.
+You raise your dagger and charge at the fallen king, ready to give him everything you got!
+-combat-
+After a long tough battle with the legendary warrior, he too begins to crumble into bones.
+As the regret that kept his spirit alive begins to fade, you hear what sounds like a quiet thank you.
+You get the impression that this wasn't the fate the hero wished upon himself.
+Triumphant, you gather everything that can fit in your bags and make your way out of Kings Rest.
+You can always make a return trip if you need more.
+You exit the crypt and seal with entrance with the statue once again.
+You hop on your horse and begin your ride into the horizon, for wherever you go, a new life awaits you!
+The End!
+-end-
+
+You succumbed to the golden glow of the chest.
+Upon opening it, your ecstatic to see it filled with gold coin!
+It may not be enough to make you the richest man alive, but it will atleast make you comfortable!
+If you make it out of here alive that is.
+You get the feeling that it was a trap all along.
+The coffins surrounding the room begin to open and skeletons begin to crawl out of every one.
+You see a dark figure emenate from the middle of the room.
+A necromancer that's been controlling the dead here for who knows how long.
+Maybe protecting, Maybe deterring.
+That isn't important right now, what is important is staying alive.
+You'll have to slay the necromancer if you don't want to be overwhelmed by the skeletons.
+You take your dagger out and sneak around in the shadows, hoping to surprise him.
+As you lunge from your vantage point, your dagger is barely reflected by a skeleton protecting him.
+You now have no choice but to face him head on.
+Time for your greatest steal yet.
+-combat-
+You barely survive the onslaught, but you succeed.
+The necromancer falls and with him the skeletons his magic was keeping up.
+You take a few minutes to reflect upon the encounter.
+After catching your breath, to the victor go the spoils. 
+You begin the arduous task of dragging the chest out of the crypt.
+It takes some strength, but you eventually get back outside.
+As you load the chest onto your horse, the statue returns itself to its original position and blocks the entrance.
+Try as you might, the hidden switch no longer works.
+You begin to ride with the riches you do have towards the unknown.
+While you're satisfied that you came out with something, you can't help but wonder what might have been...
+The End
+...?
+-end-

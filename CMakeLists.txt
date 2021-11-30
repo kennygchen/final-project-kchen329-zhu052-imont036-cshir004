@@ -13,6 +13,7 @@ ADD_EXECUTABLE(main
 	src/Game.cpp
 	src/RogueFactory.cpp
 	src/RogueCharacter.cpp
+	src/parseStrategy.cpp
 )
 
 ADD_EXECUTABLE(test
