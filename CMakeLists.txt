@@ -17,7 +17,7 @@ ADD_EXECUTABLE(main
 )
 
 ADD_EXECUTABLE(test
-	src/test.cpp
+	tests/test.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
