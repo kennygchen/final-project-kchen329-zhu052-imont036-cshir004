@@ -46,4 +46,26 @@ TEST(WarriorFactoryTest, WarriorNameHaveHealth) {
     delete factory;
 }
 
+TEST(WarriorFactoryTest, WarriorLevel) {
+    ClassTypeFactory* factory = new WarriorFactory();
+    Character* warrior = factory->createCharacter();
+    warrior->setLevel(5);
+
+    EXPECT_EQ(warrior->getLevel(), 5);
+
+    delete warrior;
+    delete factory;
+}
+
+TEST(WarriorFactoryTest, WarriorXp) {
+    ClassTypeFactory* factory = new WarriorFactory();
+    Character* warrior = factory->createCharacter();
+    warrior->setXp(100);
+
+    EXPECT_EQ(warrior->getXp(), 100);
+
+    delete warrior;
+    delete factory;
+}
+
 #endif //WARRIOR_FACTORY_TEST_HPP

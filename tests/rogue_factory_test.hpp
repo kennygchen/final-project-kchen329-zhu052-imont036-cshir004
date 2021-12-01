@@ -3,10 +3,10 @@
 
 #include "gtest/gtest.h"
 #include "../header/ClassTypeFactory.hpp"
-#include "../header/RogueFactory.hpp"
+#include "../src/RogueFactory.cpp"
 
 TEST(RogueFactoryTest, RogueNameNotEmpty) {
-    ClassTypeFactory* factory = new WarriorFactory();
+    ClassTypeFactory* factory = new RogueFactory();
     Character* rogue = factory->createCharacter();
 
     EXPECT_NE(rogue->getName(), "");
@@ -16,30 +16,55 @@ TEST(RogueFactoryTest, RogueNameNotEmpty) {
 }
 
 TEST(RogueFactoryTest, RogueNameHaveGold) {
-    ClassTypeFactory* factory = new WarriorFactory();
+    ClassTypeFactory* factory = new RogueFactory();
     Character* rogue = factory->createCharacter();
+    rogue->setGold(10);
 
-    EXPECT_NE(rogue->getGold(), 0);
+    EXPECT_EQ(rogue->getGold(), 10);
 
     delete rogue;
     delete factory;
 }
 
 TEST(RogueFactoryTest, RogueNameCanDealDamage) {
-    ClassTypeFactory* factory = new WarriorFactory();
+    ClassTypeFactory* factory = new RogueFactory();
     Character* rogue = factory->createCharacter();
+    rogue->setDamage(85);
 
-    EXPECT_NE(rogue->getDamage(), 0);
+    EXPECT_EQ(rogue->getDamage(), 85);
 
     delete rogue;
     delete factory;
 }
 
 TEST(RogueFactoryTest, RogueNameHaveHealth) {
-    ClassTypeFactory* factory = new WarriorFactory();
+    ClassTypeFactory* factory = new RogueFactory();
     Character* rogue = factory->createCharacter();
+	rogue->setHealth(10);
 
-    EXPECT_NE(rogue->getHealth(), 0);
+    EXPECT_EQ(rogue->getHealth(), 10);
+
+    delete rogue;
+    delete factory;
+}
+
+TEST(RogueFactoryTest, RogueLevel) {
+    ClassTypeFactory* factory = new RogueFactory();
+    Character* rogue = factory->createCharacter();
+    rogue->setLevel(5);
+
+    EXPECT_EQ(rogue->getLevel(), 5);
+
+    delete rogue;
+    delete factory;
+}
+
+TEST(RogueFactoryTest, RogueXp) {
+    ClassTypeFactory* factory = new RogueFactory();
+    Character* rogue = factory->createCharacter();
+    rogue->setXp(100);
+
+    EXPECT_EQ(rogue->getXp(), 100);
 
     delete rogue;
     delete factory;
