@@ -15,12 +15,17 @@ This diagram consists of the classes that will be present throughout our project
 
  ## Screenshots
  > ![1](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/1.png)
- > ![2](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/2.png)
- > ![3](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/3.png)
- > ![4](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/4.png)
- > ![5](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/5.png)
- > ![6](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/6.png)
- > ![7](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/7.png)
+ > ![2](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/combat1.png)
+ > ![3](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/combat2.png)
+ > ![4](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/2.png)
+ > ![5](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/3.png)
+ > ![6](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/4.png)
+ > ![7](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/5.png)
+ > ![8](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/6.png)
+ > ![9](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/7.png)
+ > ![10](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/tests.png)
+ > ![11](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/mainMemcheck.png)
+ > ![12](https://github.com/cs100/final-project-kchen329-zhu052-imont036-cshir004/blob/master/testMemcheck.png)
  ## Installation/Usage
 
  Using git, clone the repository, and `cd` into it.
@@ -46,83 +51,6 @@ test
 Running `./main` will start the game.
 
  ## Testing
-After following the instructions in the **Installation/Usage** section, running `./test` will run the unit tests for this program. For this project, we had a total of 20 unit tests from 4 different suites.
+After following the instructions in the **Installation/Usage** section, running `./test` will run the unit tests for this program. For this project, we had a total of 30 unit tests from 6 different suites.
 
 We also used Valgrind to make sure that there were no memory leaks in the program. We ran Valgrind against the `main` executable as well as the `test` executable to be sure that all memory allocated was also deallocated. This test can be run using `valgrind --leak-check=full ./main` or `valgrind --leak-check=full ./test` to test the respective program.
-
- <details><summary>Valgrind results and Google Tests</summary>
-<p>
- 
-```
-==46088== Memcheck, a memory error detector
-==46088== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==46088== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
-==46088== Command: ./test
-==46088==
-[==========] Running 20 tests from 4 test suites.
-[----------] Global test environment set-up.
-[----------] 4 tests from WarroirCharacterTest
-[ RUN      ] WarroirCharacterTest.WarriorCharacterName
-[       OK ] WarroirCharacterTest.WarriorCharacterName (17 ms)
-[ RUN      ] WarroirCharacterTest.WarriorCharacterGold
-[       OK ] WarroirCharacterTest.WarriorCharacterGold (2 ms)
-[ RUN      ] WarroirCharacterTest.WarriorCharacterDamage
-[       OK ] WarroirCharacterTest.WarriorCharacterDamage (2 ms)
-[ RUN      ] WarroirCharacterTest.WarriorCharacterHealth
-[       OK ] WarroirCharacterTest.WarriorCharacterHealth (2 ms)
-[----------] 4 tests from WarroirCharacterTest (35 ms total)
-
-[----------] 4 tests from RogueCharacterTest
-[ RUN      ] RogueCharacterTest.RogueCharacterName
-[       OK ] RogueCharacterTest.RogueCharacterName (2 ms)
-[ RUN      ] RogueCharacterTest.RogueCharacterGold
-[       OK ] RogueCharacterTest.RogueCharacterGold (2 ms)
-[ RUN      ] RogueCharacterTest.RogueCharacterDamage
-[       OK ] RogueCharacterTest.RogueCharacterDamage (2 ms)
-[ RUN      ] RogueCharacterTest.RogueCharacterHealth
-[       OK ] RogueCharacterTest.RogueCharacterHealth (2 ms)
-[----------] 4 tests from RogueCharacterTest (10 ms total)
-
-[----------] 6 tests from WarriorFactoryTest
-[ RUN      ] WarriorFactoryTest.WarriorNameNotEmpty
-[       OK ] WarriorFactoryTest.WarriorNameNotEmpty (3 ms)
-[ RUN      ] WarriorFactoryTest.WarriorNameHaveGold
-[       OK ] WarriorFactoryTest.WarriorNameHaveGold (2 ms)
-[ RUN      ] WarriorFactoryTest.WarriorNameCanDealDamage
-[       OK ] WarriorFactoryTest.WarriorNameCanDealDamage (2 ms)
-[ RUN      ] WarriorFactoryTest.WarriorNameHaveHealth
-[       OK ] WarriorFactoryTest.WarriorNameHaveHealth (2 ms)
-[ RUN      ] WarriorFactoryTest.WarriorLevel
-[       OK ] WarriorFactoryTest.WarriorLevel (2 ms)
-[ RUN      ] WarriorFactoryTest.WarriorXp
-[       OK ] WarriorFactoryTest.WarriorXp (2 ms)
-[----------] 6 tests from WarriorFactoryTest (18 ms total)
-
-[----------] 6 tests from RogueFactoryTest
-[ RUN      ] RogueFactoryTest.RogueNameNotEmpty
-[       OK ] RogueFactoryTest.RogueNameNotEmpty (3 ms)
-[ RUN      ] RogueFactoryTest.RogueNameHaveGold
-[       OK ] RogueFactoryTest.RogueNameHaveGold (2 ms)
-[ RUN      ] RogueFactoryTest.RogueNameCanDealDamage
-[       OK ] RogueFactoryTest.RogueNameCanDealDamage (2 ms)
-[ RUN      ] RogueFactoryTest.RogueNameHaveHealth
-[       OK ] RogueFactoryTest.RogueNameHaveHealth (2 ms)
-[ RUN      ] RogueFactoryTest.RogueLevel
-[       OK ] RogueFactoryTest.RogueLevel (2 ms)
-[ RUN      ] RogueFactoryTest.RogueXp
-[       OK ] RogueFactoryTest.RogueXp (2 ms)
-[----------] 6 tests from RogueFactoryTest (18 ms total)
-
-[----------] Global test environment tear-down
-[==========] 20 tests from 4 test suites ran. (150 ms total)
-[  PASSED  ] 20 tests.
-==46088==
-==46088== HEAP SUMMARY:
-==46088==     in use at exit: 0 bytes in 0 blocks
-==46088==   total heap usage: 691 allocs, 691 frees, 101,040 bytes allocated
-==46088==
-==46088== All heap blocks were freed -- no leaks are possible
-==46088==
-==46088== For counts of detected and suppressed errors, rerun with: -v
-==46088== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-```
