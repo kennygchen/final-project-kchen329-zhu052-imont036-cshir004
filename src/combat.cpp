@@ -47,6 +47,7 @@ bool Combat::combat(int encounter, int battle){
 		}
 		else if (choice == 2) 
 			cout << "You Use a potion and recover health!" << endl;
+			player->setHealth(player->getHealth() + 30);
 	}
 	while (enemy->alive() == true);	
 	
@@ -83,6 +84,7 @@ bool Combat::combat(int encounter, int battle){
                 }
                 else if (choice == 2)
                         cout << "You Use a potion and recover health!" << endl;
+			player->setHealth(player->getHealth() + 30);
         }
         while (enemy2->alive() == true);
 
