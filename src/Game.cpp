@@ -21,6 +21,24 @@ void Game::setFactory(int type) {
 	else if(type == 2) {
 		this->factory = new RogueFactory();
 	}
+	else if(type == 3) {
+		this->factory = new TrollFactory();
+	}
+	else if(type == 4) {
+		this->factory = new TGroupFactory();
+	}
+	else if(type == 5) {
+		this->factory = new DragonFactory();
+	}
+	else if(type == 6) {
+		this->factory = new SkeletonFactory();
+	}
+	else if(type == 7) {
+		this->factory = new SKingFactory();
+	}
+	else if(type == 8) {
+		this->factory = new NecromancerFactory();
+	}
 }
 
 void Game::createCharacter() {
@@ -108,6 +126,22 @@ void Game::shop() {
 				break;
 		}
 	} while(input < 7);
+}
+
+int Game::getHealth(){
+	return character->getHealth();
+}
+
+int Game::getDamage(){
+	return character->getDamage();
+}
+
+void Game::setHealth(int health){
+	character->setHealth(health);
+}
+
+string Game::getName(){
+	return character->getName();
 }
 
 // Determines whether character still has health

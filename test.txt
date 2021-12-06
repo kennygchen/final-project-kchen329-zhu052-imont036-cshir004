@@ -1,0 +1,4 @@
+This is test text
+This shouldnt be read
+-test-
+Only the above flag should matter
